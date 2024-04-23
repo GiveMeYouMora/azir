@@ -1,0 +1,46 @@
+* {
+  margin-top: 0;
+  padding: 0;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-image: url(../image/1625834145_4-kartinkin-com-p-bunker-arti-art-krasivo-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 60px;
+  align-items: center;
+  border-bottom: 1px solid snow;
+}
+.button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.main-persone_info {
+  display: none;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.audio {
+  position: absolute;
+  top: 20px;
+  right: 2opx;
+}
+#audio-range {
+  writing-mode: vertical-lr;
+}
