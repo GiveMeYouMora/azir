@@ -29,12 +29,16 @@ body {
 }
 .main-persone_info {
   display: none;
+  background-color: rgba(0, 0, 0, 0.503);
+  padding: 15px;
 }
 .main {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-grow: 1;
+  flex-direction: column;
+  gap: 40px;
 }
 .audio {
   position: absolute;
