@@ -6,6 +6,7 @@
     <title>Bunker</title>
     <script type="module" defer src="./assets/js/index.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script defer src="./assets/js/audio.js"></script>
   </head>
   <body>
     <header class="header">
@@ -17,14 +18,15 @@
       <div class="main-persone_info">
         <h2 class="person-info_item">Name:</h2>
         <h2 class="person-info_item">Profetion:</h2>
+        <h2 class="person-info_item">Work expirience</h2>
         <h2 class="person-info_item">Age:</h2>
         <h2 class="person-info_item">diseas:</h2>
       </div>
     </main>
     <div class="audio">
-      <input type="range" id="audio-range" />
+      <input min="0" max="1" step="0.1" type="range" id="audio-range" />
       <button id="on-off"><img src="./assets/image/min.svg" alt="" /></button>
-      <audio src=""></audio>
+      <audio id="audio" loop src="./assets/sound/back.mp3"></audio>
     </div>
   </body>
 </html>
